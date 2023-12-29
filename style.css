@@ -3,14 +3,13 @@
     /*width: 60%;*/
     border-style: solid;
     font-family: cursive;
-    text-align: center;
     color: blue;
-    margin-left: 50%;
-    display: inline-block;
 }
 
-.header {
+.container {
     border: solid;
+    display: flex;
+    flex-direction: row;
 }
 
 .headerbuttons {
@@ -23,7 +22,19 @@
     cursor: pointer;
 }
 
-#editheader {
+#createheader {
+    margin-left: auto;
+}
+
+#genreheader {
+    margin-right: auto;
+}
+
+#title {
+    text-align: center;
+}
+
+/*#editheader {
     margin-left: auto;
     margin-right: 0;
 }
@@ -31,8 +42,8 @@
 #genreheader {
     min-width: 20%;
 }
-
-.dropdown {
+*/
+/*.dropdown {
     position: relative;
     display: inline-block;
     text-align: left;
@@ -50,7 +61,7 @@
 .dropdown-menu a {
     color: black;
     /*passing: 11px 15px;*/
-    text-decoration: none;
+/*    text-decoration: none;
     display: block;
 }
 
@@ -64,4 +75,4 @@
 
 .headerbuttons:hover {
     background-color: grey;
-}
+}*/
